@@ -11,7 +11,7 @@ public class TestResolver {
     public void testResolve() {
 
         int size = 6;
-        int nums[] = new int[]{-4, 3, 9, 0, 4, 1};
+        int nums[] = new int[]{-4, 3, -9, 0, 4, 1};
 
         double[] outputs = Solution.Resolver.resolve(size, nums);
 
