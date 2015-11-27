@@ -23,7 +23,9 @@ public class TestResolver {
         return Arrays.asList(
                 new Object[]{0, 1L},
                 new Object[]{1, 2L},
+                new Object[]{3, 6L},
                 new Object[]{4, 7L});
+
     }
 
     @Test

@@ -14,7 +14,7 @@ public class Solution {
                         final int cycle = in.nextInt();
                         return String.valueOf(Resolver.resolve(cycle));
                     }
-            ).forEach(System.out::print);
+            ).forEach(System.out::println);
         }
     }
 
