@@ -10,7 +10,7 @@ public class Solution {
             final int numberOfTest = in.nextInt();
 
             IntStream.range(0, numberOfTest).mapToObj(testNumber -> {
-                        final int input = in.nextInt();
+                final long input = in.nextLong();
                         return String.valueOf(Resolver.resolve(input));
                     }
             ).forEach(System.out::println);
@@ -19,8 +19,14 @@ public class Solution {
 
     public static final class Resolver {
         public static int resolve(long input) {
-            throw new UnsupportedOperationException();
+
+            final String inputStr = String.valueOf(input);
+            return (int) IntStream.range(0, inputStr.length()).filter(i -> {
+                final int digit = inputStr.charAt(i) - '0';
+                return ((digit != 0) && (input % digit == 0));
+            }).count();
         }
     }
-
 }
+
+
