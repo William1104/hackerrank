@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.concurrent.atomic.LongAdder;
 import java.util.stream.IntStream;
 
 /**
@@ -18,8 +19,18 @@ public class Solution {
     }
 
     public static final class Resolver {
-        public static int resolve(int input) {
-            throw new UnsupportedOperationException();
+        public static long resolve(int numOfCycle) {
+            final LongAdder high = new LongAdder();
+            high.add(1);
+
+            IntStream.range(0, numOfCycle).forEach(cycle -> {
+                if (cycle % 2 == 0) {
+                    high.add(high.longValue());
+                } else {
+                    high.add(1L);
+                }
+            });
+            return high.longValue();
         }
     }
 
