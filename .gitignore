@@ -2,7 +2,7 @@
 *.class
 
 # ignore idea project folder
-/.idea/*
+#/.idea/*
 
 # ignore target folder created by maven
 */target/*
