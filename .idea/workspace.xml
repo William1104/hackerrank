@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdc22597-bcbb-48a9-892d-34fb43b0e8ce" name="Default" comment="addFind Digits problem (with 1st solution implementation)&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="bdc22597-bcbb-48a9-892d-34fb43b0e8ce" name="Default" comment="update project structures, such that the top level project is the maven parent project">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Staircase/pom.xml" afterPath="$PROJECT_DIR$/Staircase/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angry-professor/angry-professor.iml" afterPath="$PROJECT_DIR$/angry-professor/angry-professor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diagonal-difference/diagonal-difference.iml" afterPath="$PROJECT_DIR$/diagonal-difference/diagonal-difference.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/find-digits/find-digits.iml" afterPath="$PROJECT_DIR$/find-digits/find-digits.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plus-minus/plus-minus.iml" afterPath="$PROJECT_DIR$/plus-minus/plus-minus.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time-conversion/time-conversion.iml" afterPath="$PROJECT_DIR$/time-conversion/time-conversion.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utopian-tree/utopian-tree.iml" afterPath="$PROJECT_DIR$/utopian-tree/utopian-tree.iml" />
     </list>
     <list id="7e5178c8-50ad-4ee9-b4c4-c216de8235c0" name="Rejected commit: Default" comment="" />
     <ignored path="hackerrank.iws" />
@@ -59,10 +48,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestResolver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestResolver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sherlock-and-the-beast/src/test/java/TestResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15315315">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
@@ -72,8 +61,18 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.461538">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="38" />
+            <state vertical-scroll-proportion="-10.230769">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25757575">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,6 +145,7 @@
         <option value="$PROJECT_DIR$/Utopian Tree/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sherlock-and-the-beast/src/test/java/TestResolver.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -838,7 +838,25 @@
       <option name="project" value="LOCAL" />
       <updated>1448774415386</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update project structures, such that the top level project is the maven parent project">
+      <created>1448775170980</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1448775170980</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update project structures, such that the top level project is the maven parent project">
+      <created>1448775211067</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1448775211067</updated>
+    </task>
+    <task id="LOCAL-00030" summary="to remove *.iml files, first have to reset the .gitignore file">
+      <created>1448775447016</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1448775447016</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -884,7 +902,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.49676377" order="10" side_tool="false" content_ui="tabs" />
@@ -896,7 +914,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.272203" sideWeight="0.487055" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32756633" sideWeight="0.487055" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18932039" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18932039" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -949,7 +967,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Create README.md" />
     <MESSAGE value="add solution for 'diagonal difference'" />
     <MESSAGE value="import intellij settings" />
     <MESSAGE value="reset test utilities (junit and hamcrest) dependencies to 'test' scope" />
@@ -971,9 +988,11 @@
     <MESSAGE value="add Utopian Tree problem (with 1st solution implemented)" />
     <MESSAGE value="add Utopian Tree problem (with 2st solution implemented)&#10;- we should use println instead of print for result printing." />
     <MESSAGE value="addFind Digits problem (with testcase only)&#10;" />
-    <MESSAGE value="addFind Digits problem (with 1st solution implementation)&#10;" />
     <MESSAGE value="TestCase missing required 'RunWith' settings. It makes the project cannot be run with maven." />
-    <option name="LAST_COMMIT_MESSAGE" value="TestCase missing required 'RunWith' settings. It makes the project cannot be run with maven." />
+    <MESSAGE value="addFind Digits problem (with 1st solution implementation)&#10;" />
+    <MESSAGE value="update project structures, such that the top level project is the maven parent project" />
+    <MESSAGE value="to remove *.iml files, first have to reset the .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="to remove *.iml files, first have to reset the .gitignore file" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1169,13 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hackerrank.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plus-minus/src/main/java/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42550656">
@@ -1345,14 +1357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.461538">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sherlock-and-the-beast/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075">
@@ -1363,8 +1367,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sherlock-and-the-beast/src/test/java/TestResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15315315">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.230769">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25757575">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
