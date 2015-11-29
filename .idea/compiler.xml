@@ -83,15 +83,24 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Angry Professor" target="1.8" />
+      <module name="angry-professor" target="1.8" />
       <module name="Diagonal Difference" target="1.8" />
+      <module name="diagonal-difference" target="1.8" />
       <module name="Find Digits" target="1.8" />
+      <module name="find-digits" target="1.8" />
       <module name="parent" target="1.8" />
+      <module name="parent (1)" target="1.8" />
       <module name="Plus Minus" target="1.8" />
+      <module name="plus-minus" target="1.8" />
       <module name="Sherlock and The Beast" target="1.8" />
+      <module name="sherlock-and-the-beast" target="1.8" />
       <module name="Staircase" target="1.8" />
+      <module name="staircase" target="1.8" />
       <module name="test" target="1.8" />
       <module name="Time Conversion" target="1.8" />
+      <module name="time-conversion" target="1.8" />
       <module name="Utopian Tree" target="1.8" />
+      <module name="utopian-tree" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

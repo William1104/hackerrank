@@ -7,7 +7,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Diagonal Difference/pom.xml" />
-        <option value="$PROJECT_DIR$/parent/pom.xml" />
         <option value="$PROJECT_DIR$/Plus Minus/pom.xml" />
         <option value="$PROJECT_DIR$/Staircase/pom.xml" />
         <option value="$PROJECT_DIR$/Time Conversion/pom.xml" />
@@ -16,6 +15,7 @@
         <option value="$PROJECT_DIR$/Sherlock and The Beast/pom.xml" />
         <option value="$PROJECT_DIR$/Utopian Tree/pom.xml" />
         <option value="$PROJECT_DIR$/Find Digits/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
