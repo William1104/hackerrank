@@ -17,7 +17,7 @@ public class TestResolver {
     public int money;
 
     @Parameterized.Parameter(value = 1)
-    public int itemPrice;
+    public int chocolatePrice;
 
     @Parameterized.Parameter(value = 2)
     public int exchangeRate;
@@ -25,7 +25,7 @@ public class TestResolver {
     @Parameterized.Parameter(value = 3)
     public int expectedOutput;
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "{index}: money={0}, price={1}, exchangeRate={2}, expected={3}")
     public static Iterable<Object[]> data() {
         return Arrays.asList(
                 new Object[]{10, 2, 5, 6},
@@ -36,7 +36,7 @@ public class TestResolver {
 
     @Test
     public void testResolve() {
-        final int result = Solution.Resolver.resolve(money, itemPrice, exchangeRate);
+        final int result = Solution.Resolver.resolve(money, chocolatePrice, exchangeRate);
         Assert.assertThat(result, Matchers.equalTo(expectedOutput));
     }
 }
