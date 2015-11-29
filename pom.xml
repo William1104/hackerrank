@@ -53,6 +53,7 @@
         <module>chocolate-feast</module>
         <module>caesar-cipher</module>
         <module>intro-tutorial-challenges</module>
+        <module>fibonacci-modified</module>
     </modules>
 
 
