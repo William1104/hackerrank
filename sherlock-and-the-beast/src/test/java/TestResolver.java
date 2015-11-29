@@ -1,6 +1,7 @@
 import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import java.util.Arrays;
@@ -8,6 +9,7 @@ import java.util.Arrays;
 /**
  * Created by william on 11/27/2015.
  */
+@RunWith(Parameterized.class)
 public class TestResolver {
 
     @Parameterized.Parameter(value = 0)
