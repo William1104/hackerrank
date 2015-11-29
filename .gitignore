@@ -3,7 +3,6 @@
 
 # ignore idea project folder
 /.idea/*
-*.iml
 
 # ignore target folder created by maven
 */target/*
