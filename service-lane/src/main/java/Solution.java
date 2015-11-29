@@ -20,7 +20,11 @@ public class Solution {
         }
 
         public int resolve(int start, int end) {
-            throw new UnsupportedOperationException();
+            int max = width[start];
+            for (int i = start + 1; i < end; i++) {
+                max = Math.min(max, width[i]);
+            }
+            return max;
         }
     }
 }
