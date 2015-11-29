@@ -1,0 +1,8 @@
+# ignore all compiled class
+*.class
+
+# ignore idea project folder
+/.idea/*
+
+# ignore target folder created by maven
+*/target/*
