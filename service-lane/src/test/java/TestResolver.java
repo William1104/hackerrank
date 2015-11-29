@@ -12,14 +12,18 @@ import java.util.Arrays;
 @RunWith(Parameterized.class)
 public class TestResolver {
 
+
+    @Parameterized.Parameter(value = 0)
+    public Solution.Resolver resolver;
+
     @Parameterized.Parameter(value = 1)
     public int start;
+
     @Parameterized.Parameter(value = 2)
     public int end;
+
     @Parameterized.Parameter(value = 3)
     public int expectedOutput;
-    @Parameterized.Parameter(value = 0)
-    private Solution.Resolver resolver;
 
     @Parameterized.Parameters(name = "{index}: start[{1}], end[{2}] -> result[{3}]")
     public static Iterable<Object[]> data() {
