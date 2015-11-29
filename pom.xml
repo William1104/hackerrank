@@ -51,6 +51,8 @@
         <module>extra-long-factorials</module>
         <module>cut-the-sticks</module>
         <module>chocolate-feast</module>
+        <module>caesar-cipher</module>
+        <module>intro-tutorial-challenges</module>
     </modules>
 
 
