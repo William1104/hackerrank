@@ -32,7 +32,12 @@ public class TestResolver {
                 new Object[]{new Solution.Resolver(8, new int[]{2, 3, 1, 2, 3, 2, 3, 3}), 4, 6, 2},
                 new Object[]{new Solution.Resolver(8, new int[]{2, 3, 1, 2, 3, 2, 3, 3}), 6, 7, 3},
                 new Object[]{new Solution.Resolver(8, new int[]{2, 3, 1, 2, 3, 2, 3, 3}), 3, 5, 2},
-                new Object[]{new Solution.Resolver(8, new int[]{2, 3, 1, 2, 3, 2, 3, 3}), 0, 7, 1});
+                new Object[]{new Solution.Resolver(8, new int[]{2, 3, 1, 2, 3, 2, 3, 3}), 0, 7, 1},
+                new Object[]{new Solution.Resolver(5, new int[]{1, 2, 2, 2, 1}), 2, 3, 2},
+                new Object[]{new Solution.Resolver(5, new int[]{1, 2, 2, 2, 1}), 1, 4, 1},
+                new Object[]{new Solution.Resolver(5, new int[]{1, 2, 2, 2, 1}), 2, 4, 1},
+                new Object[]{new Solution.Resolver(5, new int[]{1, 2, 2, 2, 1}), 2, 4, 1},
+                new Object[]{new Solution.Resolver(5, new int[]{1, 2, 2, 2, 1}), 2, 3, 2});
     }
 
     @Test
