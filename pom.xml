@@ -47,6 +47,9 @@
         <module>diagonal-difference</module>
         <module>find-digits</module>
         <module>plus-minus</module>
+        <module>service-lane</module>
+        <module>extra-long-factorials</module>
+        <module>cut-the-sticks</module>
     </modules>
 
 
