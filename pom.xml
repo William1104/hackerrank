@@ -54,6 +54,9 @@
         <module>caesar-cipher</module>
         <module>intro-tutorial-challenges</module>
         <module>fibonacci-modified</module>
+        <module>breadth-first-search</module>
+        <module>breadth-first-search-2</module>
+        <module>prim-mst-special-subtree</module>
     </modules>
 
 
