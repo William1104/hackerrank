@@ -57,6 +57,7 @@
         <module>breadth-first-search</module>
         <module>breadth-first-search-2</module>
         <module>prim-mst-special-subtree</module>
+        <module>kruskal-mst-really-special-subtree</module>
     </modules>
 
 
