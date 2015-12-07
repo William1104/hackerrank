@@ -39,25 +39,10 @@
     </dependencyManagement>
 
     <modules>
-        <module>angry-professor</module>
-        <module>sherlock-and-the-beast</module>
-        <module>staircase</module>
-        <module>time-conversion</module>
-        <module>utopian-tree</module>
-        <module>diagonal-difference</module>
-        <module>find-digits</module>
-        <module>plus-minus</module>
-        <module>service-lane</module>
-        <module>extra-long-factorials</module>
-        <module>cut-the-sticks</module>
-        <module>chocolate-feast</module>
-        <module>caesar-cipher</module>
+        <module>algorithm</module>
         <module>intro-tutorial-challenges</module>
         <module>fibonacci-modified</module>
-        <module>breadth-first-search</module>
-        <module>breadth-first-search-2</module>
-        <module>prim-mst-special-subtree</module>
-        <module>kruskal-mst-really-special-subtree</module>
+
     </modules>
 
 
