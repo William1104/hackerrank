@@ -29,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-implementation/sherlock-and-the-beast/sherlock-and-the-beast.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-implementation/sherlock-and-the-beast/sherlock-and-the-beast.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-dynamic-programming/square-subsequences/square-subsequences.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-dynamic-programming/square-subsequences/square-subsequences.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-warmup/staircase/staircase.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-warmup/staircase/staircase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-implementation/the-time-in-words/the-time-in-words.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-implementation/the-time-in-words/the-time-in-words.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-warmup/time-conversion/time-conversion.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-warmup/time-conversion/time-conversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-implementation/utopian-tree/utopian-tree.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-implementation/utopian-tree/utopian-tree.iml" />
     </modules>

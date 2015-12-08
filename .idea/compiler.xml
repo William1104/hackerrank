@@ -244,6 +244,13 @@
         <processorPath useClasspath="true" />
         <module name="matrix-rotation-algo" />
       </profile>
+      <profile default="false" name="Annotation profile for the-time-in-words" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="the-time-in-words" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="algorithm" target="1.8" />
@@ -283,6 +290,7 @@
       <module name="Staircase" target="1.8" />
       <module name="staircase" target="1.8" />
       <module name="test" target="1.8" />
+      <module name="the-time-in-words" target="1.8" />
       <module name="Time Conversion" target="1.8" />
       <module name="time-conversion" target="1.8" />
       <module name="Utopian Tree" target="1.8" />

@@ -23,6 +23,7 @@
         <module>utopian-tree</module>
         <module>encryption</module>
         <module>sherlock-and-squares</module>
+        <module>the-time-in-words</module>
     </modules>
 
 
