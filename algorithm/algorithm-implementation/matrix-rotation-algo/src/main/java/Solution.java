@@ -1,4 +1,4 @@
-import java.util.stream.Collectors;
+import java.util.Scanner;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -8,6 +8,23 @@ import java.util.stream.Stream;
 public class Solution {
 
     public static void main(String[] args) {
+        try (final Scanner scanner = new Scanner(System.in)) {
+            final int numOfRow = scanner.nextInt();
+            final int numOfCol = scanner.nextInt();
+            final int numOfStep = scanner.nextInt();
+
+            final int[][] matrix = IntStream.range(0, numOfRow).mapToObj(row ->
+                    IntStream.range(0, numOfCol).map(col -> scanner.nextInt()).toArray()
+            ).toArray(int[][]::new);
+
+            final int[][] output = Resolver.resolve(numOfRow, numOfCol, numOfStep, matrix);
+            for (int i = 0; i < numOfRow; i++) {
+                for (int j = 0; j < numOfCol; j++) {
+                    System.out.print(output[i][j] + " ");
+                }
+                System.out.println();
+            }
+        }
 
     }
 
@@ -42,11 +59,11 @@ public class Solution {
                         Stream.<Point>concat(
                                 IntStream.range(left, right).mapToObj(col -> new Point(top, (numOfCol - 1 - col), matrix[top][numOfCol - 1 - col])),
                                 IntStream.range(button, top).mapToObj(row -> new Point((numOfRow - 1 - row), left, matrix[numOfRow - 1 - row][left]))))
-                        .collect(Collectors.toList());
+                        .toArray(Point[]::new);
             }).forEach(ring -> {
-                for (int i = 0; i < ring.size(); i++) {
-                    final Point point = ring.get(i);
-                    output[point.row][point.col] = ring.get((i + step) % ring.size()).val;
+                for (int i = 0; i < ring.length; i++) {
+                    final Point point = ring[i];
+                    output[point.row][point.col] = ring[(i + step) % ring.length].val;
                 }
             });
 
