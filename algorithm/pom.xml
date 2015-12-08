@@ -15,5 +15,6 @@
         <module>algorithm-warmup</module>
         <module>algorithm-implementation</module>
         <module>algorithm-graph</module>
+        <module>algorithm-dynamic-programming</module>
     </modules>
 </project>

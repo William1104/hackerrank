@@ -223,9 +223,31 @@
         <processorPath useClasspath="true" />
         <module name="cut-the-sticks" />
       </profile>
+      <profile default="false" name="Annotation profile for sherlock-and-squares" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="sherlock-and-squares" />
+      </profile>
+      <profile default="false" name="Annotation profile for square-subsequences" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="square-subsequences" />
+      </profile>
+      <profile default="false" name="Annotation profile for matrix-rotation-algo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="matrix-rotation-algo" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="algorithm" target="1.8" />
+      <module name="algorithm-dynamic-programming" target="1.8" />
       <module name="algorithm-graph" target="1.8" />
       <module name="algorithm-implementation" target="1.8" />
       <module name="algorithm-warmup" target="1.8" />
@@ -246,6 +268,7 @@
       <module name="find-digits" target="1.8" />
       <module name="intro-tutorial-challenges" target="1.8" />
       <module name="kruskal-mst-really-special-subtree" target="1.8" />
+      <module name="matrix-rotation-algo" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="parent (1)" target="1.8" />
       <module name="Plus Minus" target="1.8" />
@@ -254,7 +277,9 @@
       <module name="prim-mst-special-subtree" target="1.8" />
       <module name="service-lane" target="1.8" />
       <module name="Sherlock and The Beast" target="1.8" />
+      <module name="sherlock-and-squares" target="1.8" />
       <module name="sherlock-and-the-beast" target="1.8" />
+      <module name="square-subsequences" target="1.8" />
       <module name="Staircase" target="1.8" />
       <module name="staircase" target="1.8" />
       <module name="test" target="1.8" />
