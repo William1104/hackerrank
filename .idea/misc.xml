@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/breadth-first-search/pom.xml" />
         <option value="$PROJECT_DIR$/breadth-first-search-2/pom.xml" />
         <option value="$PROJECT_DIR$/algorithm/algorithm-implementation/matrix-rotation-algo/pom.xml" />
+        <option value="$PROJECT_DIR$/algorithm/algorithm-implementation/cavity-map/pom.xml" />
+        <option value="$PROJECT_DIR$/algorithm/algorithm-implementation/manasa-and-stones/pom.xml" />
       </list>
     </option>
   </component>

@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-graph/breadth-first-search/breadth-first-search.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-graph/breadth-first-search/breadth-first-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-graph/breadth-first-search-2/breadth-first-search-2.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-graph/breadth-first-search-2/breadth-first-search-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-implementation/caesar-cipher/caesar-cipher.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-implementation/caesar-cipher/caesar-cipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-implementation/cavity-map/cavity-map.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-implementation/cavity-map/cavity-map.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-implementation/chocolate-feast/chocolate-feast.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-implementation/chocolate-feast/chocolate-feast.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-implementation/cut-the-sticks/cut-the-sticks.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-implementation/cut-the-sticks/cut-the-sticks.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-warmup/diagonal-difference/diagonal-difference.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-warmup/diagonal-difference/diagonal-difference.iml" />
@@ -20,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-implementation/find-digits/find-digits.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-implementation/find-digits/find-digits.iml" />
       <module fileurl="file://$PROJECT_DIR$/intro-tutorial-challenges/intro-tutorial-challenges.iml" filepath="$PROJECT_DIR$/intro-tutorial-challenges/intro-tutorial-challenges.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-graph/kruskal-mst-really-special-subtree/kruskal-mst-really-special-subtree.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-graph/kruskal-mst-really-special-subtree/kruskal-mst-really-special-subtree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-implementation/manasa-and-stones/manasa-and-stones.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-implementation/manasa-and-stones/manasa-and-stones.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-implementation/matrix-rotation-algo/matrix-rotation-algo.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-implementation/matrix-rotation-algo/matrix-rotation-algo.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm-warmup/plus-minus/plus-minus.iml" filepath="$PROJECT_DIR$/algorithm/algorithm-warmup/plus-minus/plus-minus.iml" />
