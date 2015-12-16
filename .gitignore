@@ -7,3 +7,4 @@
 
 # ignore target folder created by maven
 */target/*
+*.iml
