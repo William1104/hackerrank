@@ -42,6 +42,7 @@
         <module>algorithm</module>
         <module>intro-tutorial-challenges</module>
         <module>fibonacci-modified</module>
+        <module>euler-project</module>
 
     </modules>
 
