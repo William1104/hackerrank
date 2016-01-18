@@ -2,7 +2,6 @@ import java.util.PrimitiveIterator;
 import java.util.Scanner;
 import java.util.Spliterator;
 import java.util.Spliterators;
-import java.util.function.IntPredicate;
 import java.util.function.LongPredicate;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
@@ -18,16 +17,19 @@ public final class Solution {
             final int t = scanner.nextInt();
             IntStream.rangeClosed(1, t).mapToLong(testNum -> {
                 final long n = scanner.nextLong();
-
-                LongStream fibStream = StreamSupport
-                        .longStream(Spliterators.spliteratorUnknownSize(
-                                new FibonacciGenerator(i -> i <= n),
-                                Spliterator.ORDERED),
-                                false);
-
-               return fibStream.filter(i -> i % 2 == 0).sum();
+                return solve(n);
             }).forEach(System.out::println);
         }
+    }
+
+    public static long solve(long n) {
+        LongStream fibStream = StreamSupport
+                .longStream(Spliterators.spliteratorUnknownSize(
+                        new FibonacciGenerator(i -> i <= n),
+                        Spliterator.ORDERED),
+                        false);
+
+        return fibStream.filter(i-> i%2==0).sum();
     }
 }
 
@@ -43,7 +45,7 @@ class FibonacciGenerator implements PrimitiveIterator.OfLong {
 
     @Override
     public boolean hasNext() {
-        return predicate.test(n_1);
+        return predicate.test(n_1 + n_2);
     }
 
     @Override
