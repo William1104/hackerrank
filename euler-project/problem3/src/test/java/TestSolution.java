@@ -34,6 +34,6 @@ public class TestSolution {
 
     @Test
     public void test() {
-        MatcherAssert.assertThat(Solution.solve(input), Matchers.equalTo(expectedOutput));
+        MatcherAssert.assertThat(Solution2.solve(input), Matchers.equalTo(expectedOutput));
     }
 }
